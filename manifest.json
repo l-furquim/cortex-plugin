@@ -1,0 +1,20 @@
+{
+	"id": "users-furqas-projects-personal",
+	"name": "Personal Project Inbox",
+	"version": "0.1.0",
+	"minAppVersion": "0.1.0",
+	"author": "furqas",
+	"description": "Capture project notes, create daily project logs, and open a lightweight project dashboard.",
+	"icon": "folder-kanban",
+	"main": "dist/index.js",
+	"capabilities": [
+		"commands",
+		"settings",
+		"vault:read",
+		"vault:write",
+		"ui:views",
+		"ui:sidebar",
+		"ui:statusbar",
+		"notifications"
+	]
+}
